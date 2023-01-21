@@ -35,6 +35,11 @@ import SwiftUI
 struct Challenge_1: View {
   var body: some View {
     Image("monster")
+      .resizable()
+      .scaledToFit()
+      .shadow(radius: 20)
+      .border(Color.green, width: 5)
+      .padding()
   }
 }
 
